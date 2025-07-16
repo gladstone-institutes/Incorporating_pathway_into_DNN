@@ -4,7 +4,24 @@
 ### Input data source: 
 #### Dataset1: The following human cancer data was downloaded from https://www.weizmann.ac.il/sites/3CA  
 ##### Obradovic et al. 2021, Zhang et al. 2021, Chen et al. 2021, Bassez et al. 2021, Wu et al. 2021, Qian et al. 2020, Regner et al. 2021 
-
 #### Dataset2: Pancrease cell type data (beta, alpha, acinar and ductal cells) from GSE84133
- 
+# 
 
+### Scripts:
+#### PFOCR Subset Selection Script:
+#### filter_uniform_pfocr.R<br /><br />
+
+#### Linear Programming Based Subset Selection Script
+#### psolve.R<br /><br />
+
+#### Cell Clustering Efficiency Calculation Script
+#### pathway_based_umap_original_plus_snn.R
+#### pathway_based_umap_original_plus_snn_Baron.R<br /><br />
+
+#### Stepwise Pathway Selection Script
+#### stepwise_with_loaded_data_shap_Baron.py
+#### stepwise_with_loaded_data_shap_CA.py<br /><br />
+
+#### SHAP Input Score Calculation Script:
+#### 3CA_original_plus_pathways_accuracy_shap.py
+#### Baron_original_plus_pathways_accuracy_shap.py
